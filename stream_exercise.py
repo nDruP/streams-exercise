@@ -63,10 +63,4 @@ class StreamProcessor(object):
                 break
             total += int(two_digits)
             count += 1
-        # Just some example syntax, you can read two digits from the head of the
-        # stream using the following code:
-        #
-        # digits = self._stream.read(2)
-
-
         return count
